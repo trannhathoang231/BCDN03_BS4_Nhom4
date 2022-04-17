@@ -38,3 +38,68 @@ a {
     line-height: 22.5px;
     margin: 16px 0;
 }
+
+
+/*  header  */
+header{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo{
+    color: #dc4f72;
+    font-size: 30px;
+}
+.logo span:last-of-type{
+    font-weight: 700;
+    font-size: 35px;
+}
+.navbar{
+    width: 70%;
+    text-align: center  ;
+    justify-content: end;
+}
+ul{
+    margin: 0;
+}
+.navbar ul li{
+    align-items: center;
+    list-style: none;   
+    display: inline-block;
+    padding: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    text-align: left;
+    width: 150px;
+    height: 150px;
+}
+.dropdown-menu .dropdown-item{
+    padding: 10px 15px  ;
+    transition: all 0.5s;
+}
+.dropdown-menu .dropdown-item::after{
+    content: "";
+    position: relative;
+}
+.dropdown-menu .dropdown-item::before{
+    position: absolute;
+}
+.dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
+    color: #dc4f72;
+    text-decoration: none;
+    background-color:transparent;
+}
