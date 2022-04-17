@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p:first-of-type {
+    color: #dc4f72;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.title h2 {
+    color: #2C3038;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.title p:last-of-type {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin: 16px 0;
+}
