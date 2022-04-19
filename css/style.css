@@ -39,7 +39,91 @@ a {
     margin: 16px 0;
 }
 
+/* HOANG_ABOUT */
+.about {
+    background-color: var(--light-bg-color); }
+    .about .book-info h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--title-color);
+    font-weight: 700; 
+}
+.about .book-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 24.4px; 
+}
 
+
+/* HOANG_NUMBER */
+/*-- stats --*/
+.stats {
+    background: var(--light-bg-color); 
+}
+.stats p.counter {
+    font-size: 50px;
+    line-height: 1;
+    color: #dc4f72;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px; 
+}
+.stats p:last-of-type {
+    color: #5a5a5a;
+}
+.stats .stats_info h4 {
+    font-size: 16px;
+    line-height: 24.5px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700; 
+}
+.stats .stats_info {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--card-curve);
+    box-shadow: var(--card-box-shadow);
+    transition: 0.3s ease;
+    border: 1px solid #eee; 
+}
+.stats .stats_info:hover {
+    box-shadow: var(--card-hover-box-shadow);
+    transition: 0.3s ease; 
+}
+
+
+/* HOANG__COMMIT  */
+.commit .new-block {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../img/bg.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 480px;
+    display: grid;
+    align-items: center;
+    padding: 2rem 0; 
+}
+  
+  .commit .middle-section {
+    max-width: 550px; 
+}
+  
+  .commit .middle-section h2 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700; 
+}
+  
+  .commit .link-list-menu p {
+    font-size: 16px;
+    color: #eee;
+    line-height: 24.5px; 
+}
 /* * PROJECT */
 .project__content {
     text-align: center;
