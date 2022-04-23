@@ -592,3 +592,84 @@ p{
     box-shadow: 0 0 0 0.2rem rgb(220 79 114 / .5);
 
 }
+
+/* TESTIMONIALS */
+.testimonials{
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.52)), url(../img/b2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 70px 0;
+}
+
+.item .img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    overflow: hidden;
+    background: #f3f6f9;
+    border-radius: 50%;
+    border: 3px solid #dc4f72;
+}
+.item{
+    width: 550px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 10px!important;
+    padding: 0 20px!important;
+}
+.item .owl-item{
+    width: 575px!important;
+}
+.content__container{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 50px;
+    border-radius: 10px;
+}
+#p1{
+    font-size: 18px;
+}
+#p2{
+    font-size: 13px;
+}
+.pha{
+    position: relative;
+}
+.pha__fa{
+    position: absolute;
+    left: -40px;
+}
+.pha__fa span{
+    font-size: 30px;
+    color: #2c3038;
+    opacity: 0.2;
+    top: 0px;
+}
+.testimonials .owl-theme .owl-dots .owl-dot span{
+    width: 50px;
+    height: 5px;
+    border-radius: 0;
+}
+.testimonials .owl-theme .owl-dots .owl-dot.active span{
+    background: #dc4f72;
+}
+.testimonials .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #dc4f72;
+}
+.testimonials .owl-theme .owl-dots .owl-dot{
+    margin-top: 30px;
+}
+.item h4{
+    font-size: 15px!important;
+    font-weight: 600!important;
+    text-transform:none !important;
+}
+.owl-carousel .owl-dots.disabled{
+    display: contents;
+}
