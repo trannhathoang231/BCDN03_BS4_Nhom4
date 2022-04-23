@@ -597,3 +597,25 @@ p{
     box-shadow: 0 0 0 0.2rem rgb(220 79 114 / .5);
 
 }
+
+/* BACK TO TOP */
+.backToTop {
+    width: 50px;
+    height: 45px;
+    background: #dc4f72;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 75px;
+    color: #fff;
+    transition: all .2s;
+    visibility: hidden;
+    opacity: .7;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
