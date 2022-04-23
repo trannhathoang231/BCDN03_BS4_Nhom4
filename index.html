@@ -31,47 +31,63 @@
     <!-- Quyên -->
     <header id="header" class="fixed-top">
         <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-            <i class="fa fa-handshake"></i>
-            <span>Masterwork</span>
-            </a>
-            <button class="theme-button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active mr-4 py-3">
-                <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-4 py-3">
-                <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item mr-4 py-3">
-                <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link py-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-expanded="false">
-                    Pages <i class="fa fa-angle-down"></i>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                <i class="fa fa-handshake"></i>
+                <span>Masterwork</span>
                 </a>
+                <button class="theme-button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Blog Posts</a>
-                    <a class="dropdown-item" href="#">Blog Single</a>
-                    <a class="dropdown-item" href="#">Landing Pages</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active mr-4 py-3">
+                        <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mr-4 py-3">
+                        <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item mr-4 py-3">
+                        <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link py-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages <i class="fa fa-angle-down"></i>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Blog Posts</a>
+                            <a class="dropdown-item" href="#">Blog Single</a>
+                            <a class="dropdown-item" href="#">Landing Pages</a>
+                        </div>
+                        </li>
+                        <li class="nav-item mr-4 py-3">
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="theme-button btn-outline-danger px-4 py-3 mx-my-0" type="submit">SCHEDULE A DEMO</button>
+
+                    <!-- toggle switch for light and dark theme -->
+                    <div class="cont-ser-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- //toggle switch for light and dark theme -->
+
                 </div>
-                </li>
-                <li class="nav-item mr-4 py-3">
-                <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <button class="theme-button btn-outline-danger px-4 py-3 mx-my-0" type="submit">SCHEDULE A DEMO</button>
-
-            </div>
-        </nav>
+            </nav>
         </div>       
     </header>
     
@@ -507,6 +523,7 @@
     <div id = "v-w3layouts"></div>
     <script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '//a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
         
-      
+    <!-- theme -->
+    <script src="./js/theme.js"></script>
   </body>
 </html>
