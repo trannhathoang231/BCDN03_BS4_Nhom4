@@ -74,7 +74,7 @@ h6 {
     color: #dc4f72;
     font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-bottom: 5px;
 }
 
@@ -679,7 +679,7 @@ p{
       color: var(--title-color);
     }
     .qAndA-block .qAndA p {
-      color: #5a5a5a;
+      color: var(--text-color);
       font-size: 16px;
       line-height: 24.5px;
       position: relative;
@@ -740,7 +740,7 @@ p{
     .qAndA-block .qAndA ul li i:after {
       content: "";
       position: absolute;
-      background-color: black;
+      background-color: var(--title-color);
       width: 3px;
       height: 9px; 
     }
@@ -783,13 +783,17 @@ p{
 
 /* PROJECT - ĐẠT */
 .projects {
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 
 .project__content {
     text-align: center;
     width: 85%;
     margin: auto;
+    background-color: var(--bg-color);
+}
+.card-body {
+    background-color: var(--bg-color);
 }
 
 #project__tab {
@@ -807,12 +811,15 @@ p{
 }
 
 #project__tab .nav-link {
-    color: #4E5B61;
+    color: var(--title-color);
     font-size: 22px;
     font-weight: 700;
 
     margin-bottom: -3px;
     border: none;
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--bg-color);
 }
 
 #project__tab .nav-link:focus-visible {
@@ -837,7 +844,7 @@ p{
 }
 
 #project__tabContent .card-text {
-    color: #5a5a5a;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 24.5px;
 }
@@ -880,6 +887,20 @@ p{
     background-size: cover;
     background-attachment: fixed;
     margin: 70px 0;
+}
+.testimonials h2 {
+
+    color: #2c3038;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1;
+}
+.testimonials p:last-of-type {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin: 16px 0;
 }
 
 .item .img{
@@ -950,19 +971,20 @@ p{
     font-weight: 600!important;
     text-transform:none !important;
 }
-.owl-carousel .owl-dots.disabled{
+.owl-carousel .owl-dots.disabled {
     display: contents;
 }
 
 
+
 /* READY - ĐẠT */
 .ready {
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 
 /* FOOTER - ĐẠT */
 footer {
-    background-color: #f7f9fc;
+    background-color: var(--bg-color);
 }
 
 .footer__top {
@@ -972,7 +994,7 @@ footer {
 .footer__top h4 {
     font-size: 20px;
     font-weight: 700;
-    color: #2C3038;
+    color: var(--title-color);
     text-transform: capitalize;
 }
 
@@ -982,7 +1004,7 @@ footer {
 
 .footer__top a {
     text-decoration: none;
-    color: #656f7b;
+    color: var(--text-color);
 
     font-size: 15px;
     font-weight: normal;
@@ -994,7 +1016,7 @@ footer {
 }
 
 .footer__form {
-    background-color: #fff;
+    background-color: var(--bg-color);
     padding: 32px;
     border-radius: 6px;
     box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
@@ -1058,7 +1080,7 @@ footer {
 }   
 
 .footer__social a {
-    color: #2C3038;
+    color: var(--title-color);
     margin-right: 20px;
 }
 
