@@ -618,10 +618,8 @@ footer {
     background-color: #f7f9fc;
 }
 
-.footer__top,
-.footer__left,
-.footer__right {
-    padding-top: 30px;
+.footer__top {
+    padding-top: 50px;
 }
 
 .footer__top h4 {
@@ -631,11 +629,11 @@ footer {
     text-transform: capitalize;
 }
 
-.footer__left li {
+.footer__top li {
     list-style: none;
 }
 
-.footer__left a {
+.footer__top a {
     text-decoration: none;
     color: #656f7b;
 
@@ -644,7 +642,7 @@ footer {
     line-height: 35px;
 }
 
-.footer__left a:hover {
+.footer__top a:hover {
     color: #dc4f72;
 }
 
@@ -719,6 +717,17 @@ footer {
 
 .footer__social a:hover {
     color: #dc4f72;
+}
+
+@media screen and (max-width: 992px) {
+    .footer__bottom {
+        text-align: center;
+    }
+
+    .footer__social {
+        text-align: center !important;
+        margin-top: 20px;
+    }
 }
 
 /* BACK TO TOP - ĐẠT */
