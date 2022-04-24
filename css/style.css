@@ -421,7 +421,17 @@ header{
     left: -65px;
     
 }
-
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-bar-nav ul li a{
+    text-align: center;
+}
 /* masCarousel */
 .masCarousel{
     background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(../img/banner.jpg);
@@ -617,7 +627,8 @@ p{
     width: 550px;
     background-color:#fff;
     border-radius: 10px;
-    margin: 10px!important;
+    margin-left: 18px!important;
+
     padding: 0 20px!important;
 }
 .item .owl-item{
@@ -669,7 +680,4 @@ p{
     font-size: 15px!important;
     font-weight: 600!important;
     text-transform:none !important;
-}
-.owl-carousel .owl-dots.disabled{
-    display: contents;
 }
