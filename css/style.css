@@ -515,7 +515,7 @@ p{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.15);
     border: 0.5px solid #dfdfdf
 }
-/* * PROJECT */
+/* PROJECT - ĐẠT */
 .project__content {
     text-align: center;
 }
@@ -598,11 +598,118 @@ p{
 
 }
 
-/* BACK TO TOP */
+/* FOOTER - ĐẠT */
+footer {
+    background-color: #f7f9fc;
+}
+
+.footer__top,
+.footer__left,
+.footer__right {
+    padding-top: 30px;
+}
+
+.footer__top h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2C3038;
+    text-transform: capitalize;
+}
+
+.footer__left li {
+    list-style: none;
+}
+
+.footer__left a {
+    text-decoration: none;
+    color: #656f7b;
+
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.footer__left a:hover {
+    color: #dc4f72;
+}
+
+.footer__form {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 6px;
+    box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+}
+
+.footer__form p:first-of-type {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__email {
+    background-color: #f7f9fc;
+    border: none;
+    outline: none;
+    padding: 25px 20px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #2C3038;
+}
+
+.footer__email:focus {
+    background-color: #f7f9fc;
+    box-shadow: none;
+}
+
+.footer__btn {
+    background-color: #dc4f72;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__btn:hover {
+    background-color: #dc4f72;
+}
+
+.footer__btn:active,
+.footer__btn:focus {
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255);
+}
+
+.footer__bottom {
+    border-top: 1px solid #eaeaea;
+}   
+
+.footer__social a {
+    color: #2C3038;
+    margin-right: 20px;
+}
+
+.footer__social a:hover {
+    color: #dc4f72;
+}
+
+/* BACK TO TOP - ĐẠT */
 .backToTop {
     width: 50px;
     height: 45px;
-    /* background: #dc4f72; */
     background: rgba(220, 79, 114, .7);
     line-height: 45px;
     text-align: center;
@@ -613,7 +720,6 @@ p{
     color: #fff;
     transition: all .2s;
     visibility: hidden;
-    /* opacity: .7; */
 }
 
 .cd-top--is-visible {
