@@ -190,7 +190,7 @@ h6 {
     color: #eee;
     line-height: 24.5px; 
 }
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     .commit .middle-section a {
       margin-top: 40px; } }
   
@@ -213,7 +213,7 @@ h6 {
   
   @media (max-width: 320px) {
     .commit .link-list-menu {
-      width: 281px; } } */
+      width: 281px; } }
 
 /* HOANG SOLUTION */
 .solution .grids5-info {
@@ -504,7 +504,7 @@ header{
 
 /* masCarousel */
 .masCarousel{
-    padding-top: 100px;
+    padding-top: 50px;
     /* background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(../img/banner.jpg); */
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
@@ -529,6 +529,9 @@ header{
 
 .carousel__right img{
     transform: rotate(180deg);
+}
+.align-items-center {
+    align-items: center !important;
 }
 
 /* WHY  */
@@ -645,6 +648,21 @@ p{
     text-transform: uppercase;
     margin-bottom: 5px; 
 }
+@media (max-width: 800px) {
+    .header-section h3 {
+      font-size: 40px;
+      line-height: 50px; }
+    .header-section h2, .title h2 {
+      font-size: 40px;
+      line-height: 50px; } }
+  
+  @media (max-width: 667px) {
+    .header-section h3 {
+      font-size: 32px;
+      line-height: 42px; }
+    .header-section h2, .title h2 {
+      font-size: 36px;
+      line-height: 42px; } }
     
 .qAndA-block {
     background-color: var(--bg-color);
