@@ -117,6 +117,7 @@ h6 {
 }
 .stats p:last-of-type {
     color: var(--text-color);
+    font-size: 15px;
 }
 .stats .stats_info h4 {
     font-size: 16px;
@@ -177,7 +178,7 @@ h6 {
     color: #eee;
     line-height: 24.5px; 
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .commit .middle-section a {
       margin-top: 40px; } }
   
@@ -200,7 +201,8 @@ h6 {
   
   @media (max-width: 320px) {
     .commit .link-list-menu {
-      width: 281px; } }
+      width: 281px; } } */
+
 /* HOANG SOLUTION */
 .solution .grids5-info {
     border-radius: 6px;
@@ -394,7 +396,7 @@ header{
     transition: 0.5s;
   }
 .container{
-    max-width: 1200px!important;
+    width: 100%;
 }
 .navbar-expand-lg .navbar-nav .nav-link span.fa {
     font-size: 14px;
@@ -1486,3 +1488,4 @@ p{
     --text-color: #fff;
     --light-bg-color: #161c2d;
   }
+  
