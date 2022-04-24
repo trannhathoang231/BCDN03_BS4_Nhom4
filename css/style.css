@@ -886,6 +886,10 @@ p{
     box-shadow: 0 0 0 0.2rem rgb(220 79 114 / .5);
 }  
 
+.card-bg {
+    background: var(--bg-color);
+}
+
 /* TESTIMONIALS */
 .testimonials{
     background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.52)), url(../img/b2.jpg);
