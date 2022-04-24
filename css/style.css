@@ -436,10 +436,10 @@ header{
 }
 
 .collapse .navbar-nav .nav-link{
+    padding: 0 10px;
     color: var(--heading-color);
     /* transition: all 0.5s; */
     font-weight: 400;
-    padding: 0;
     margin-right: 20px;
 }
 .collapse .navbar-nav .active .nav-link{
@@ -475,7 +475,7 @@ header{
     transition: all 0.5s;
     opacity: 0;
     bottom: 13px;
-    left: 0;
+    left: 11px;
 }
 .collapse .navbar-nav .nav-item .nav-link:hover::before{
     opacity: 1;
@@ -501,7 +501,39 @@ header{
     left: -65px;
     
 }
-
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-bar-nav ul li a{
+    text-align: center;
+}
+a.dropdown-item {
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 14px;
+}
+.collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item::before{
+    content: "";
+    width: 0;
+    height: 2.5px;
+    background-color: #dc4f72;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0;
+    bottom: 13px;
+    left: 20px;
+}
+.collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover::before{
+    opacity: 1;
+    width: 20px;
+}
 /* masCarousel */
 .masCarousel{
     padding-top: 50px;
@@ -946,7 +978,8 @@ p{
     width: 550px;
     background-color:#fff;
     border-radius: 10px;
-    margin: 10px!important;
+    margin-left: 18px!important;
+
     padding: 0 20px!important;
 }
 .item .owl-item{
@@ -999,6 +1032,7 @@ p{
     font-weight: 600!important;
     text-transform:none !important;
 }
+
 .owl-carousel .owl-dots.disabled {
     display: contents;
 }
