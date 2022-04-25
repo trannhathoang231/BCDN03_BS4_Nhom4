@@ -1070,13 +1070,15 @@ p{
 
 
 /* READY - ĐẠT */
-.ready {
-    background-color: var(--bg-color);
+@media screen and (max-width: 768px) {
+    .ready {
+        padding: 20px;
+    }
 }
 
 /* FOOTER - ĐẠT */
 footer {
-    background-color: var(--bg-color);
+    background-color: #f7f9fc;
 }
 
 .footer__top {
