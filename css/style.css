@@ -1078,7 +1078,7 @@ p{
 
 /* FOOTER - ĐẠT */
 footer {
-    background-color: #f7f9fc;
+    background-color: var(--bg-color);
 }
 
 .footer__top {
